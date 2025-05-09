@@ -1,0 +1,5 @@
+mission_id,horodatage,statut
+1002,2024-01-01 10:30:00,Mission proposée
+1002,2024-01-01 11:00:00,CV envoyé
+1002,2024-01-01 11:15:00,CV rejeté
+1002,2024-01-01 12:00:00,Entretien client 1 à venir
