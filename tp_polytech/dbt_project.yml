@@ -32,5 +32,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   tp_polytech:
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    commerce:
+      +materialized: table
+
+seeds:
+  tp_polytech:
+    +database: bronze
+    +schema: csv_data
